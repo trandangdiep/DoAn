@@ -120,7 +120,7 @@ st.sidebar.write("""#### Thành viên thực hiện:\n
                 Trần Đăng Diệp """)
 st.sidebar.write("""#### Giảng viên hướng dẫn: 
                         """)
-st.sidebar.write("""#### Thời gian thực hiện: 4/6/2025""")
+st.sidebar.write("""#### Thời gian thực hiện: 8/2025""")
 if choice == 'Business Objective':    
     st.subheader("Business Objective")
     st.write("""
@@ -148,8 +148,8 @@ elif choice == 'Build Project':
     st.image("images/train_rf1.png",width=1200)
 
     st.write("##### 4. Evaluation")
-    st.write("Time train : 7.15s với tập dữ liệu 16539 dòng")
-    st.write("Time test : 0.17s với tập dữ liệu 4135 dòng")
+    st.write("Time train : 81s với tập dữ liệu 16539 dòng")
+    st.write("Time test : 5s với tập dữ liệu 4135 dòng")
     st.code("Score train:"+ str(round(metrics['score_train'],2)) + " vs Score test:" + str(round(metrics['score_test'],2)))
     st.code("Accuracy:"+str(round(metrics['accuracy'],2)))
     st.write("###### Confusion matrix:")
